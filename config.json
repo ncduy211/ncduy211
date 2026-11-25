@@ -1,44 +1,39 @@
 {
-  "username": "Andrew6rant",
-  "title": "andrew@grant",
-  "birthday": "2002-05-27",
+  "username": "ncduy211",
+  "title": "chiduy@nguyen",
+  "birthday": "2003-11-21",
   "sections": [
     {
       "header": null,
       "items": [
-        { "key": "OS", "value": "Windows 10, Android 14, Linux" },
-        { "key": "Uptime", "value": "22 years, 5 months, 29 days" },
-        { "key": "Host", "value": "TTM Technologies, Inc." },
-        { "key": "Kernel", "value": "CAM (Computer Aided Manufacturing) Operator" },
-        { "key": "IDE", "value": "IDEA 2023.3.2, VSCode 1.96.0" },
+        { "key": "OS", "value": "Windows 10" },
+        { "key": "Uptime", "value": "{{UPTIME}}" },
+        { "key": "Host", "value": "Smart Solution Vietnam" },
+        { "key": "Kernel", "value": "Full-Stack Software Engineer" },
+        { "key": "IDE", "value": "VSCode, IntelliJ IDEA" },
         { "spacer": true },
-        { "key": "Languages.Programming", "value": "Java, Python, JavaScript, C++" },
-        { "key": "Languages.Computer", "value": "HTML, CSS, JSON, LaTeX, YAML" },
-        { "key": "Languages.Real", "value": "English, Spanish" },
-        { "spacer": true },
-        { "key": "Hobbies.Software", "value": "Minecraft Modding, iOS Jailbreaking" },
-        { "key": "Hobbies.Hardware", "value": "Overclocking, Undervolting" }
+        { "key": "Languages.Programming", "value": "Java, TypeScript, JavaScript, Python" },
+        { "key": "Languages.Computer", "value": "HTML, CSS, JSON" },
+        { "key": "Languages.Real", "value": "English, Vietnamese" }
       ]
     },
     {
       "header": "Contact",
       "items": [
-        { "key": "Email.Personal", "value": "agrantnmac@gmail.com" },
-        { "key": "Email.Personal", "value": "andrew@grant.software" },
-        { "key": "Email.Work", "value": "Andrew.Grant@ttmtech.com" },
-        { "key": "LinkedIn", "value": "Andrew6rant" },
-        { "key": "Discord", "value": "Andrew6rant" }
+        { "key": "Email.Personal", "value": "duykun102030@gmail.com" },
+        { "key": "Email.Work", "value": "ncduy2111@gmail.com" },
+        { "key": "Discord", "value": "ncduy" }
       ]
     }
   ],
   "stats": {
-    "repos": 95,
-    "contributed": 133,
-    "stars": 342,
-    "commits": 2116,
-    "followers": 196,
-    "loc": 446276,
-    "locAdded": 523178,
-    "locDeleted": 76902
+    "repos": 0,
+    "contributed": 0,
+    "stars": 0,
+    "commits": 0,
+    "followers": 0,
+    "loc": 0,
+    "locAdded": 0,
+    "locDeleted": 0
   }
 }
