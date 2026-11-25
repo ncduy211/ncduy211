@@ -6,7 +6,7 @@
     {
       "header": null,
       "items": [
-        { "key": "OS", "value": "Windows 10" },
+        { "key": "OS", "value": "Windows 10, Linux" },
         { "key": "Uptime", "value": "{{UPTIME}}" },
         { "key": "Host", "value": "Smart Solution Vietnam" },
         { "key": "Kernel", "value": "Full-Stack Software Engineer" },
