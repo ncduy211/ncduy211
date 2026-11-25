@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="512" viewBox="0 0 850 512">
+  <style>
+    .card {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1px;
+    }
+    .terminal {
+      font-family: Consolas, 'JetBrains Mono', 'Fira Code', 'Liberation Mono', 'Courier New', monospace;
+      font-size: 14px;
+      font-variant-ligatures: none;
+    }
+    .ascii {
+      fill: #c9d1d9;
+    }
+    .header {
+      fill: #e6edf3;
+      font-weight: 600;
+    }
+    .key {
+      fill: #ffa657;
+    }
+    .val {
+      fill: #a5d6ff;
+    }
+    .muted {
+      fill: #6e7681;
+    }
+    .add {
+      fill: #3fb950;
+    }
+    .del {
+      fill: #f85149;
+    }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="849" height="511" rx="14" ry="14"/>
+  <g class="terminal ascii">
+    <text x="26" y="42" xml:space="preserve">              .......</text>
+    <text x="26" y="60" xml:space="preserve">          .-          ':-</text>
+    <text x="26" y="78" xml:space="preserve">       ..' -             : -</text>
+    <text x="26" y="96" xml:space="preserve">    :                       ::.</text>
+    <text x="26" y="114" xml:space="preserve">  -                  -----::- '=</text>
+    <text x="26" y="132" xml:space="preserve">  ;-     :--;::  ;;__,___g_ ''''\</text>
+    <text x="26" y="150" xml:space="preserve"> -!--- ;;;;|qp;;p!&quot;|||][[&quot;]N,   -</text>
+    <text x="26" y="168" xml:space="preserve">  !  p!'   '''&quot;[;p&quot;&quot;&quot;&quot;%|%g@@@c: -</text>
+    <text x="26" y="186" xml:space="preserve">  -  gt,'!Ht ; ]%k,,,;;gg|@@@[::-</text>
+    <text x="26" y="204" xml:space="preserve">   :!],|  ;- |'@gj@BBii|[g@@@@;ggt,</text>
+    <text x="26" y="222" xml:space="preserve">    '@['-;! ,N:%@MMg|||@@@@@@@@B@g[</text>
+    <text x="26" y="240" xml:space="preserve">     @g,-!' \  _lgg@@g|@@@@@@@@[;@`</text>
+    <text x="26" y="258" xml:space="preserve">     |@@;  ,;p!&quot;^&quot;&quot;*&amp;&amp;@@@@@@@@@@@&quot;</text>
+    <text x="26" y="276" xml:space="preserve">     !|@@;g|&quot; ,~x+#qgg|@@@@@@@`'</text>
+    <text x="26" y="294" xml:space="preserve">      ']@@|--! -;;;g@@@@@@@@@@-</text>
+    <text x="26" y="312" xml:space="preserve">        &quot;&amp;|qg;;!!||@@@@@%&quot;||g@;</text>
+    <text x="26" y="330" xml:space="preserve">          &quot;|&quot;&quot;`  '''''|;;p@@@@[</text>
+    <text x="26" y="348" xml:space="preserve">           ]@;;,    ;;g@@@@@@@[</text>
+    <text x="26" y="366" xml:space="preserve">           j[!|@| -;|@@@@@@@@@@</text>
+    <text x="26" y="384" xml:space="preserve">         - d[ '||- '|||@@@@@@@@ -</text>
+    <text x="26" y="402" xml:space="preserve">  -. :    :-    '' -;|@@@@@@@@`; !:.</text>
+    <text x="26" y="420" xml:space="preserve">          ':  -:-  '!|||||@@&quot; ;!-!:!!</text>
+    <text x="26" y="438" xml:space="preserve">           :  -'!;-::|||@@|' -|! !!::</text>
+    <text x="26" y="456" xml:space="preserve">               -;;;;;;||@|'  !!  :::-</text>
+    <text x="26" y="474" xml:space="preserve">                '%@@@||||!  '!|   ':-</text>
+  </g>
+  <g class="terminal">
+    <text x="355" y="42" xml:space="preserve"><tspan class="header">andrew@grant</tspan> <tspan class="muted">———————————————————————————————————————————————</tspan></text>
+    <text x="355" y="60" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">OS:</tspan> <tspan class="muted">........................</tspan> <tspan class="val">Windows 10, Android 14, Linux</tspan></text>
+    <text x="355" y="78" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Uptime:</tspan> <tspan class="muted">......................</tspan> <tspan class="val">22 years, 5 months, 29 days</tspan></text>
+    <text x="355" y="96" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Host:</tspan> <tspan class="muted">.............................</tspan> <tspan class="val">TTM Technologies, Inc.</tspan></text>
+    <text x="355" y="114" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Kernel:</tspan> <tspan class="muted">......</tspan> <tspan class="val">CAM (Computer Aided Manufacturing) Operator</tspan></text>
+    <text x="355" y="132" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">IDE:</tspan> <tspan class="muted">........................</tspan> <tspan class="val">IDEA 2023.3.2, VSCode 1.96.0</tspan></text>
+    <text x="355" y="150" xml:space="preserve"><tspan class="muted">.</tspan></text>
+    <text x="355" y="168" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Languages.Programming:</tspan> <tspan class="muted">.....</tspan> <tspan class="val">Java, Python, JavaScript, C++</tspan></text>
+    <text x="355" y="186" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Languages.Computer:</tspan> <tspan class="muted">.........</tspan> <tspan class="val">HTML, CSS, JSON, LaTeX, YAML</tspan></text>
+    <text x="355" y="204" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Languages.Real:</tspan> <tspan class="muted">.........................</tspan> <tspan class="val">English, Spanish</tspan></text>
+    <text x="355" y="222" xml:space="preserve"><tspan class="muted">.</tspan></text>
+    <text x="355" y="240" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Hobbies.Software:</tspan> <tspan class="muted">....</tspan> <tspan class="val">Minecraft Modding, iOS Jailbreaking</tspan></text>
+    <text x="355" y="258" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Hobbies.Hardware:</tspan> <tspan class="muted">.............</tspan> <tspan class="val">Overclocking, Undervolting</tspan></text>
+    <text x="355" y="294" xml:space="preserve"><tspan class="muted">— </tspan><tspan class="header">Contact</tspan><tspan class="muted"> ——————————————————————————————————————————————————</tspan></text>
+    <text x="355" y="312" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Email.Personal:</tspan> <tspan class="muted">.....................</tspan> <tspan class="val">agrantnmac@gmail.com</tspan></text>
+    <text x="355" y="330" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Email.Personal:</tspan> <tspan class="muted">....................</tspan> <tspan class="val">andrew@grant.software</tspan></text>
+    <text x="355" y="348" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Email.Work:</tspan> <tspan class="muted">.....................</tspan> <tspan class="val">Andrew.Grant@ttmtech.com</tspan></text>
+    <text x="355" y="366" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">LinkedIn:</tspan> <tspan class="muted">....................................</tspan> <tspan class="val">Andrew6rant</tspan></text>
+    <text x="355" y="384" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Discord:</tspan> <tspan class="muted">.....................................</tspan> <tspan class="val">Andrew6rant</tspan></text>
+    <text x="355" y="420" xml:space="preserve"><tspan class="muted">— </tspan><tspan class="header">GitHub Stats</tspan><tspan class="muted"> —————————————————————————————————————————————</tspan></text>
+    <text x="355" y="438" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Repos:</tspan> <tspan class="muted">....</tspan> <tspan class="val">95</tspan> <tspan class="muted">{</tspan><tspan class="key">Contributed:</tspan> <tspan class="val">133</tspan><tspan class="muted">} | </tspan><tspan class="key">Stars:</tspan> <tspan class="muted">...........</tspan> <tspan class="val">342</tspan></text>
+    <text x="355" y="456" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Commits:</tspan> <tspan class="muted">..................</tspan> <tspan class="val">2,116</tspan><tspan class="muted"> | </tspan><tspan class="key">Followers:</tspan> <tspan class="muted">.......</tspan> <tspan class="val">196</tspan></text>
+    <text x="355" y="474" xml:space="preserve"><tspan class="muted">. </tspan><tspan class="key">Lines of Code on GitHub:</tspan> <tspan class="val">446,276</tspan><tspan class="muted"> (  </tspan><tspan class="add">523,178++</tspan><tspan class="muted">,  </tspan><tspan class="del">76,902--</tspan><tspan class="muted"> )</tspan></text>
+  </g>
+</svg>

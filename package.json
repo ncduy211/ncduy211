@@ -1,0 +1,10 @@
+{
+  "name": "github-neofetch-profile",
+  "version": "1.0.0",
+  "description": "Neofetch-style GitHub Profile README SVG generator (Dark Mode)",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-svg.mjs",
+    "generate:live": "node scripts/generate-svg.mjs --live"
+  }
+}
