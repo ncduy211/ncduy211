@@ -14,7 +14,10 @@
         { "spacer": true },
         { "key": "Languages.Programming", "value": "Java, TypeScript, JavaScript, Python" },
         { "key": "Languages.Computer", "value": "HTML, CSS, JSON" },
-        { "key": "Languages.Real", "value": "English, Vietnamese" }
+        { "key": "Languages.Real", "value": "English, Vietnamese" },
+        { "spacer": true },
+        { "key": "Stack.Backend", "value": "Spring Boot" },
+        { "key": "Stack.Frontend", "value": "React, Angular" }
       ]
     },
     {

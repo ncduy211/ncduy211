@@ -202,7 +202,7 @@ function renderRightRowTspans(row) {
   }
 }
 
-function buildDarkSvg(asciiLines, rightRows) {
+function buildDarkSvg(asciiLines, rightRows, widthCols) {
   const theme = {
     bg: '#161b22',
     border: '#30363d',
@@ -221,7 +221,7 @@ function buildDarkSvg(asciiLines, rightRows) {
   const padY = 28;
   const asciiX = padX;
   const rightX = 355;
-  const svgWidth = 850;
+  const svgWidth = Math.ceil(rightX + widthCols * 7.7 + padX);
 
   const totalRows = Math.max(asciiLines.length, rightRows.length);
   const svgHeight = padY * 2 + totalRows * lineHeight + 6;
@@ -294,8 +294,19 @@ async function main() {
   }
 
   const stats = await fetchLiveGitHubStats(config.username, config.stats);
-  const rightRows = buildRightLines(config, stats, 60);
-  const darkSvg = buildDarkSvg(asciiLines, rightRows);
+
+  // Auto-fit widthCols so the longest key-value line always has at least 3 dots and aligns flush
+  let minNeededCols = 60;
+  for (const section of config.sections) {
+    for (const item of section.items) {
+      if (item.spacer) continue;
+      const val = String(item.value).replace('{{UPTIME}}', calcUptime(config.birthday || '2002-01-01'));
+      const needed = 2 + item.key.length + 2 + 3 + 1 + val.length;
+      if (needed > minNeededCols) minNeededCols = needed;
+    }
+  }
+  const rightRows = buildRightLines(config, stats, minNeededCols);
+  const darkSvg = buildDarkSvg(asciiLines, rightRows, minNeededCols);
 
   fs.writeFileSync(path.join(ROOT, 'dark_mode.svg'), darkSvg, 'utf8');
   console.log('Generated dark_mode.svg successfully.');
