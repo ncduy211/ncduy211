@@ -14,10 +14,15 @@
         { "spacer": true },
         { "key": "Languages.Programming", "value": "Java, TypeScript, JavaScript, Python" },
         { "key": "Languages.Computer", "value": "HTML, CSS, JSON" },
-        { "key": "Languages.Real", "value": "English, Vietnamese" },
-        { "spacer": true },
-        { "key": "Stack.Backend", "value": "Spring Boot" },
-        { "key": "Stack.Frontend", "value": "React, Angular" }
+        { "key": "Languages.Real", "value": "English, Vietnamese" }
+      ]
+    },
+    {
+      "header": "Develop",
+      "items": [
+        { "key": "Dev.Backend", "value": "Spring Boot" },
+        { "key": "Dev.Frontend", "value": "React, Angular" },
+        { "key": "Dev.Database", "value": "MySQL, SQL Server" }
       ]
     },
     {
