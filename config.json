@@ -9,7 +9,7 @@
         { "key": "OS", "value": "Windows 10, Linux" },
         { "key": "Uptime", "value": "{{UPTIME}}" },
         { "key": "Host", "value": "Smart Solution Vietnam" },
-        { "key": "Kernel", "value": "Full-Stack Software Engineer" },
+        { "key": "Kernel", "value": "Full-Stack Developer" },
         { "key": "IDE", "value": "VSCode, IntelliJ IDEA" },
         { "spacer": true },
         { "key": "Languages.Programming", "value": "Java, TypeScript, JavaScript, Python" },
@@ -28,9 +28,9 @@
     {
       "header": "Contact",
       "items": [
-        { "key": "Email.Personal", "value": "duykun102030@gmail.com" },
-        { "key": "Email.Work", "value": "ncduy2111@gmail.com" },
-        { "key": "Discord", "value": "ncduy" }
+        { "key": "Contact.Email.Personal", "value": "duykun102030@gmail.com" },
+        { "key": "Contact.Email.Work", "value": "ncduy2111@gmail.com" },
+        { "key": "Contact.PhoneNumber", "value": "0334830903" }
       ]
     }
   ],
